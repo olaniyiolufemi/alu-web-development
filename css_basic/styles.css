@@ -1,0 +1,29 @@
+
+body, 
+main {
+    display: flex;
+}
+body {
+    flex-direction: column;
+    background-color: #f9f149;
+}
+main {
+    flex-direction: row;
+    flex: auto;
+}
+article {
+    flex: 2;
+}
+aside {
+    flex: 1;
+}
+article,
+aside {
+    overflow-y: auto;
+    background-color: tomatos;
+}
+aside p {
+    border: 1px solid tomato;
+    padding: 20px;
+}
+
